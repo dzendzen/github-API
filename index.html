@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Github</title>
+    <style></style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <img src="github-logo.png" class="logo" width="300" alt="" />
+        <h4 class="text-uppercase">search github user</h4>
+        <div class="feedback"></div>
+        <form id="searchForm">
+          <div class="input-group">
+            <input type="text" class="form-control" id="searchUser" />
+            <div class="input-group-append">
+              <button type="submit" class="btn submitBtn">
+                Search Github
+              </button>
+            </div>
+          </div>
+        </form>
+        <section id="github-users">
+          <!-- single user -->
+          <div class="single-user"></div>
+          <!-- end of single user -->
+        </section>
+      </div>
+    </div>
+
+    <!-- script js -->
+    <script src="app.js"></script>
+  </body>
+</html>

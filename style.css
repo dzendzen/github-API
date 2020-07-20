@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(191, 248, 253, 0.616);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+img.logo {
+  margin-top: 10vh;
+}
+h4.text-uppercase {
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.feedback {
+  font-size: 1rem;
+  background-color: rgba(255, 0, 0, 0.267);
+  width: 30%;
+  border-radius: 5px;
+  margin: 2vh auto 2vh auto;
+}
+.feedback p {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+.form-control {
+  padding: 0.5rem 1rem;
+}
+input.form-control {
+  font-size: 1.2rem;
+}
+.submitBtn,
+.reposBtn {
+  border: none;
+  background-color: rgba(0, 0, 255, 0.52);
+  border-radius: 5px;
+  color: white;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+.single-user {
+  margin: 5vh 0 0 2vw;
+  display: flex;
+  flex-direction: row;
+}
+h6 {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-left: 2rem;
+  line-height: 2;
+}
+.reposBtn {
+  margin-top: 0;
+  margin-left: 5vw;
+}
+.reposList {
+  text-align: left;
+  margin-left: 15vw;
+  margin-top: 5vh;
+}
+@media screen and (max-width: 768px) {
+  .single-user {
+    display: flex;
+    flex-direction: column;
+  }
+  h6 {
+    margin-top: 2vh;
+    margin-left: 15vw;
+  }
+  .reposBtn {
+    margin-top: 5vh;
+  }
+}
