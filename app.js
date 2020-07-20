@@ -8,7 +8,7 @@ class GITHUB {
     //user url
     const userURL = `${this.base}${userValue}?client_id='${this.client_id}'&client_secret='${this.client_secret}'`;
     //repos url
-    const reposURL = `${this.base}${userValue}/repos?client_id='${this.client_id}'&client_secret='${this.client_secret}'`;
+    const reposURL = `${this.base}${userValue}/repos?client_id='${this.client_id}'&client_secret='${this.client_secret}'&per_page=100`;
 
     // get users
     const userData = await fetch(userURL);
